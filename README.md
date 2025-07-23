@@ -1,5 +1,6 @@
 🚨 Automated Threat Detection & Incident Response System
 A SIEM-driven solution for real-time log monitoring, threat analysis, and automated countermeasures
+
 🔍 Overview
 This project implements a Security Information and Event Management (SIEM) solution that enables:
 
