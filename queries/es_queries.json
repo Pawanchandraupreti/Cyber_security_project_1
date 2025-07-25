@@ -1,0 +1,15 @@
+{
+  "brute_force_query": {
+    "query": {
+      "bool": {
+        "must": [
+          { "match": { "process": "sshd" } },
+          { "match": { "message": "Failed password" } }
+        ]
+      }
+    },
+    "aggs": {
+      "attacker_ips": { "terms": { "field": "hostname.keyword" } }
+    }
+  }
+}
