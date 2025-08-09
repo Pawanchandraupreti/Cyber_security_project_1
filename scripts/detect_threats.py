@@ -1,4 +1,5 @@
 import pandas as pd
+
 from sklearn.ensemble import IsolationForest
 
 # Load log data (example: CSV exported from Elasticsearch)
